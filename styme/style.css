@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.haut {
+    width: 100%;
+    height: 50px;
+    background-color: orange;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu {
+    width: 100%;
+    height: 30px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+
+.milieu {
+    width: 80%;
+    height: 400px;
+    background-color: brown;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+}
+
+.bas {
+    width: 100%;
+    height: 50px;
+    background-color: orange;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.retour {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: linear-gradient(to right, red, yellow, green, cyan);
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+}
